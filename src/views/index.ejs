@@ -23,10 +23,10 @@
 
         <% if (typeof success != "undefined") { %>
          
-        <div>
-            <p>"Payment Method:" {{ payment_type }}</p>
-            <p>"External Reference:" {{ external_reference }}</p>
-            <p>"Payment ID:" {{ collection_id }}</p>
+        <div style="font-size: 14px;">
+            <p>"Payment Method:" <%= payment_type %> </p>
+            <p>"External Reference:" <%= external_reference %></p>
+            <p>"Payment ID:" <%= collection_id %></p>
         </div>
 
         <% } %>
