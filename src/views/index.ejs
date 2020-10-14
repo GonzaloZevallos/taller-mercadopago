@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', { title: 'Inicio' }) %>
+
+<body>
+  <!-- Header -->
+  <%- include('partials/headerNavbar') %>
+  <!-- /Header -->
+
+  <!-- Banner -->
+  <div class="banner"></div>
+  <!-- /Banner -->
+
+  <div class="container products-wrapper">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="products-title">Productos</h2>
+      </div>
+
+      <!-- All products -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <section class="product-box">
+          <figure class="product-box_image">
+            <img src="/images/products/jordan.jpg" alt="Nike Jordan">
+          </figure>
+          <article class="product-box_data">
+            <h2>$16500</h2>
+            <p>Nike Jordan</p>
+            <i class="fas fa-truck"></i>
+          </article>
+          <div class="button-buy-container">
+            <form action="/detail" method="GET">
+              <input type="hidden" name="img" value="jordan.jpg">
+              <input type="hidden" name="title" value="Nike Jordan">
+              <input type="hidden" name="price" value="16500">
+              <input type="hidden" name="unit" value="1">
+              <button type="submit" class="mercadopago-button">Ir al producto</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <section class="product-box">
+            <figure class="product-box_image">
+              <img src="/images/products/disruptor.jpg" alt="Fila Disruptor">
+            </figure>
+            
+            <article class="product-box_data">
+              <h2>$9000</h2>
+              <p>Fila Disruptor</p>
+              <i class="fas fa-truck"></i>
+            </article>
+            <div class="button-buy-container">
+              <form action="/detail" method="GET">
+                <input type="hidden" name="img" value="disruptor.jpg">
+                <input type="hidden" name="title" value="Fila Disruptor">
+                <input type="hidden" name="price" value="9000">
+                <input type="hidden" name="unit" value="1">
+                <button type="submit" class="mercadopago-button">Ir al producto</button>
+              </form>
+            </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <section class="product-box">
+          <figure class="product-box_image">
+            <img src="/images/products/force.jpg" alt="Nike Air Force">
+          </figure>
+          <article class="product-box_data">
+            <h2>$13200</h2>
+            <p>Nike Air Force</p>
+            <i class="fas fa-truck"></i>
+          </article>
+          <div class="button-buy-container">
+            <form action="/detail" method="GET">
+              <input type="hidden" name="img" value="force.jpg">
+              <input type="hidden" name="title" value="Nike Air Force">
+              <input type="hidden" name="price" value="13200">
+              <input type="hidden" name="unit" value="1">
+              <button type="submit" class="mercadopago-button">Ir al producto</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <section class="product-box">
+          <figure class="product-box_image">
+            <img src="/images/products/falcon.jpg" alt="Adidas Falcon">
+          </figure>
+          <article class="product-box_data">
+            <h2>$15000</h2>
+            <p>Adidas Falcon</p>
+            <i class="fas fa-truck"></i>
+          </article>
+          <div class="button-buy-container">
+            <form action="/detail" method="GET">
+              <input type="hidden" name="img" value="falcon.jpg">
+              <input type="hidden" name="title" value="Adidas Falcon">
+              <input type="hidden" name="price" value="15000">
+              <input type="hidden" name="unit" value="1">
+              <button type="submit" class="mercadopago-button">Ir al producto</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- footer -->
+  <%- include('partials/footer') %>
+  <!-- /footer -->
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', { title: title }) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<!-- product detail -->
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Detalle del producto: <%= title %> </h2>
+			</div>
+		</div>
+		<div class="product-detail">
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<img src="/images/products/<%= img %>" alt="<%= title %>" class="product-detail-img">
+					<p class="product-detail-description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo explicabo iste in veniam ullam quod, quaerat qui veritatis ipsa fuga suscipit quo voluptates tenetur? Veritatis beatae ad mollitia non sit neque, quasi iure minima unde, ratione iste! A aperiam, aspernatur sint dignissimos eaque aut fugiat perferendis architecto optio, cumque laudantium!
+					</p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<article class="product-detail-info">
+						<h2 class="product-detail-title"><%= title %></h2>
+							<p class="product-detail-price">
+								$<%= price %>
+							</p>
+						<ul class="actions-list">
+							<li>
+								<i class="fas fa-credit-card"></i>
+								<p>Pagá en 12 cuotas sin interes</p>
+							</li>
+							<li>
+								<i class="fas fa-store"></i>
+								<p>Retiro gratis en locales del vendedor</p>
+							</li>
+						</ul>
+
+						<div class="mercadopago-button-container">
+							<button class="mercadopago-button">
+								Pagar la compra
+							</button>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /product detail -->
+
+	<!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+
+</body>	
+</html>
