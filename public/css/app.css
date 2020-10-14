@@ -161,7 +161,8 @@ hr {
   font-size: 1.2rem;
 }
 
-.mercadopago-button-container button {
+.mercadopago-button-container a button, .mercadopago-button-container a{
+  display: inline-block;
   width: 100%;
   font-size: 1.5rem;
 }

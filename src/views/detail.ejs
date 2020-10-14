@@ -2,6 +2,7 @@
 <html lang="es">
 <!-- Include Head -->
 <%- include('partials/head', { title: title }) %>
+
 <body>
 	<!-- Header -->
 	<%- include('partials/headerNavbar') %>
@@ -19,15 +20,18 @@
 				<div class="col-12 col-lg-8">
 					<img src="/images/products/<%= img %>" alt="<%= title %>" class="product-detail-img">
 					<p class="product-detail-description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo explicabo iste in veniam ullam quod, quaerat qui veritatis ipsa fuga suscipit quo voluptates tenetur? Veritatis beatae ad mollitia non sit neque, quasi iure minima unde, ratione iste! A aperiam, aspernatur sint dignissimos eaque aut fugiat perferendis architecto optio, cumque laudantium!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo explicabo iste in veniam ullam
+						quod, quaerat qui veritatis ipsa fuga suscipit quo voluptates tenetur? Veritatis beatae ad
+						mollitia non sit neque, quasi iure minima unde, ratione iste! A aperiam, aspernatur sint
+						dignissimos eaque aut fugiat perferendis architecto optio, cumque laudantium!
 					</p>
 				</div>
 				<div class="col-12 col-lg-4">
 					<article class="product-detail-info">
 						<h2 class="product-detail-title"><%= title %></h2>
-							<p class="product-detail-price">
-								$<%= price %>
-							</p>
+						<p class="product-detail-price">
+							$<%= price %>
+						</p>
 						<ul class="actions-list">
 							<li>
 								<i class="fas fa-credit-card"></i>
@@ -40,9 +44,11 @@
 						</ul>
 
 						<div class="mercadopago-button-container">
-							<button class="mercadopago-button">
-								Pagar la compra
-							</button>
+							<a href="<%= preference.init_point %> ">
+								<button class="mercadopago-button">
+									Pagar la compra
+								</button>
+							</a>
 						</div>
 					</article>
 				</div>
@@ -55,5 +61,6 @@
 	<%- include('partials/footer') %>
 	<!-- /footer -->
 
-</body>	
+</body>
+
 </html>

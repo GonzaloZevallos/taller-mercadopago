@@ -1,6 +1,7 @@
 {
-  "name": "project",
-  "version": "0.0.0",
+  "name": "taller-mercadopago-dh",
+  "version": "1.0.0",
+  "description": "Este e-commerce de ejemplo será la base para la integración de MercadoPago con `nodejs`.",
   "private": true,
   "scripts": {
     "start": "node ./src/bin/www"
@@ -11,6 +12,7 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "mercadopago": "^1.3.2",
     "morgan": "~1.9.1"
   }
 }
