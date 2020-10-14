@@ -17,7 +17,7 @@ module.exports = {
                 {
                     id: 1234,
                     title: req.query.title,
-                    picture_url: `http://gzevallos-mp-ecommerce-php.herokuapp.com/images/products/${req.query.img}`,
+                    picture_url: `http://gonzalozevallos-taller-mp-dh.herokuapp.com/images/products/${req.query.img}`,
                     description: "Calzado con demasiada facha",
                     quantity: Number(req.query.unit),
                     unit_price: Number(req.query.price),
@@ -38,9 +38,9 @@ module.exports = {
                 },
             },
             back_urls: {
-                success: "http://gonzalozevallos-mercadopago.herokuapp.com/success",
-                failure: "http://gonzalozevallos-mercadopago.herokuapp.com/failure",
-                pending: "http://gonzalozevallos-mercadopago.herokuapp.com/pending",
+                success: "http://gonzalozevallos-taller-mp-dh.herokuapp.com/success",
+                failure: "http://gonzalozevallos-taller-mp-dh.herokuapp.com/failure",
+                pending: "http://gonzalozevallos-taller-mp-dh.herokuapp.com/pending",
             },
             auto_return: "approved",
             payment_methods: {
@@ -57,7 +57,7 @@ module.exports = {
                 installments: 6,
             },
             notification_url:
-                "http://gzevallos-mp-ecommerce-nodejs.herokuapp.com/notifications?source_news=webhooks",
+                "http://gonzalozevallos-taller-mp-dh.herokuapp.com/notifications?source_news=webhooks",
             external_reference: "gonzalo.zev@gmail.com"
         };
 
