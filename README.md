@@ -94,14 +94,14 @@ Es necesario que incluyas en cada una de tus vistas un [script de seguridad] que
 
 ---
 
+<br>
+
 ### Información adicional
 
 <br>
 
 ###### integrator-id
 dev_24c65fb163bf11ea96500242ac130004
-
-<br>
 
 ###### Test user (vendedor)
 
@@ -112,7 +112,7 @@ dev_24c65fb163bf11ea96500242ac130004
 
 - Email: test_user_63274575@testuser.com
 
-*Es importante que uses este email para que puedas usar las tarjetas de prueba.* 
+*Es importante que uses este email para que puedas utilizar las tarjetas de prueba.* 
 
 
 <!-- Links -->
