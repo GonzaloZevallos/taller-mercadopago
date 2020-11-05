@@ -18,7 +18,7 @@
 
 ###### Medios de pago
 
-El cliente necesita que los pagos con tarjeta de crédito se puedan pagar como máximo en **12 cuotas**. Además no quiere permitir pagos con tarjeta MasterCard ni tampoco con medios de pago de tipo cajero automático **(atm)**.
+El cliente necesita que los pagos con tarjeta de crédito se puedan pagar como máximo en **12 cuotas**. Además no quiere permitir pagos con tarjeta Visa ni tampoco con medios de pago de tipo cajero automático **(atm)**.
 
 <br>
 
@@ -112,7 +112,43 @@ dev_24c65fb163bf11ea96500242ac130004
 
 - Email: test_user_63274575@testuser.com
 
-*Es importante que uses este email para que puedas utilizar las tarjetas de prueba.* 
+*Es importante que uses este email para que puedas utilizar las tarjetas de prueba.*
+
+---
+
+<br>
+
+### Documentación adicional
+
+<br>
+
+###### Mercado Pago Developers
+https://www.mercadopago.com.ar/developers/es
+
+<br>
+
+###### Checkout
+https://www.mercadopago.com.ar/developers/es/guides/online-payments/checkout-pro/introduction
+
+<br>
+
+###### Preferencia
+https://www.mercadopago.com.ar/developers/es/reference/preferences/resource
+
+<br>
+
+###### Métodos de pago
+https://www.mercadopago.com.ar/developers/es/guides/online-payments/checkout-api/other-payment-ways#bookmark_obt%C3%A9n_los_medios_de_pago_disponibles
+
+<br>
+
+###### URLs de retorno
+https://www.mercadopago.com.ar/developers/es/guides/online-payments/checkout-pro/advanced-integration
+
+<br>
+
+###### Tarjetas de prueba
+https://www.mercadopago.com.ar/developers/es/guides/online-payments/checkout-pro/test-integration
 
 
 <!-- Links -->
